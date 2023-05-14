@@ -1,1 +1,73 @@
 @page "/Prioridades"
+@inject PrioridadesBLL prioridadBll
+
+<EditForm Model="prioridad" OnValidSubmit="Guardar" >
+    <DataAnnotationsValidator/>
+    <div class="card" >
+        <div class="card-header">
+            <h1>Registro Prioridades</h1>
+        </div>
+        <div class="card-body">
+             @* No. de Prioridad y boton de buscar *@
+            <label class="form-label">No. Prioridad</label>
+            <div>
+                <InputNumber @bind-Value='prioridad.PrioridadId' class='form-control'></InputNumber>
+                <button type="button" class="btn btn-info oi oi-magnifying-glass" @onclick="Buscar"></button>
+            </div>
+            @* Fecha *@
+            <div class="form-group">
+                <label class="form-label">Fecha</label>
+                <InputDate @bind-Value="prioridad.DiasCompromiso" class="form-control"/>
+            </div>
+            @* Descripción*@
+            <div class="col-5 flex-fill mx-2">
+                <label class="form-label">Descripción</label>
+                <InputText @bind-Value="prioridad.Descripcion" class="form-control"/>
+                <ValidationMessage For="@(() => prioridad.Descripcion)" />
+            </div>
+
+        </div>
+         @* Botones *@
+        <div class="card-footer">
+            <button type="button" class="btn btn-primary" @onclick="Nuevo"><span class="oi oi-file"></span> Nuevo</button>
+            <button type="submit" class="btn btn-success"><span class="oi oi-document"></span> Guardar</button>
+            <button type="button" class="btn btn-danger" @onclick="Eliminar"><span class="oi oi-delete"></span> Eliminar</button>
+        </div>
+    </div>
+</EditForm>
+@code{
+    [Parameter]
+    public int prioridadId { get; set; }
+    public Registros_Prioridad prioridad { get; set; } = new Registros_Prioridad();
+
+    void Nuevo(){
+        this.prioridad = new Registros_Prioridad();
+    }
+
+    void Guardar(){
+        if (!Validar())
+            return;
+        if (prioridadBll.Guardar(prioridad))
+            this.Nuevo();
+    }
+
+    void Eliminar(){
+        if (prioridadBll.Eliminar(prioridad))
+            this.Nuevo();
+    }
+
+    void Buscar(){
+        var prioridadBuscar = prioridadBll.Buscar(prioridad.PrioridadId);
+        if (prioridadBuscar != null){
+            this.prioridad = prioridadBuscar;
+        }
+    }
+
+    bool Validar(){
+        if(string.IsNullOrEmpty(prioridad.Descripcion))
+            return false;
+        else
+            return true;
+    }
+
+}
