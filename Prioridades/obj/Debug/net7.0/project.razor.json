@@ -13,43 +13,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 1163758247,
-        "Kind": "Components.Component",
-        "Name": "Prioridades.Pages.Counter",
-        "AssemblyName": "Prioridades",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Prioridades.Pages.Counter",
-          "Common.TypeNameIdentifier": "Counter",
-          "Common.TypeNamespace": "Prioridades.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -732589664,
-        "Kind": "Components.Component",
-        "Name": "Prioridades.Pages.Counter",
-        "AssemblyName": "Prioridades",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Prioridades.Pages.Counter"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Prioridades.Pages.Counter",
-          "Common.TypeNameIdentifier": "Counter",
-          "Common.TypeNamespace": "Prioridades.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
         "HashCode": -1997805068,
         "Kind": "Components.Component",
         "Name": "Prioridades.Pages.Index",
@@ -81,43 +44,6 @@
         "Metadata": {
           "Common.TypeName": "Prioridades.Pages.Index",
           "Common.TypeNameIdentifier": "Index",
-          "Common.TypeNamespace": "Prioridades.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -181322007,
-        "Kind": "Components.Component",
-        "Name": "Prioridades.Pages.FetchData",
-        "AssemblyName": "Prioridades",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Prioridades.Pages.FetchData",
-          "Common.TypeNameIdentifier": "FetchData",
-          "Common.TypeNamespace": "Prioridades.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -399654674,
-        "Kind": "Components.Component",
-        "Name": "Prioridades.Pages.FetchData",
-        "AssemblyName": "Prioridades",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Prioridades.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Prioridades.Pages.FetchData",
-          "Common.TypeNameIdentifier": "FetchData",
           "Common.TypeNamespace": "Prioridades.Pages",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
@@ -156,6 +82,65 @@
           "Common.TypeName": "Prioridades.App",
           "Common.TypeNameIdentifier": "App",
           "Common.TypeNamespace": "Prioridades",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 21848956,
+        "Kind": "Components.Component",
+        "Name": "Prioridades.Shared.SurveyPrompt",
+        "AssemblyName": "Prioridades",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Prioridades.Shared.SurveyPrompt",
+          "Common.TypeNameIdentifier": "SurveyPrompt",
+          "Common.TypeNamespace": "Prioridades.Shared",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1322060948,
+        "Kind": "Components.Component",
+        "Name": "Prioridades.Shared.SurveyPrompt",
+        "AssemblyName": "Prioridades",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Prioridades.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Prioridades.Shared.SurveyPrompt",
+          "Common.TypeNameIdentifier": "SurveyPrompt",
+          "Common.TypeNamespace": "Prioridades.Shared",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }
@@ -264,65 +249,6 @@
           "Components.IsSpecialKind": "Components.ChildContent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.None"
-        }
-      },
-      {
-        "HashCode": 21848956,
-        "Kind": "Components.Component",
-        "Name": "Prioridades.Shared.SurveyPrompt",
-        "AssemblyName": "Prioridades",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Prioridades.Shared.SurveyPrompt",
-          "Common.TypeNameIdentifier": "SurveyPrompt",
-          "Common.TypeNamespace": "Prioridades.Shared",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1322060948,
-        "Kind": "Components.Component",
-        "Name": "Prioridades.Shared.SurveyPrompt",
-        "AssemblyName": "Prioridades",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Prioridades.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Prioridades.Shared.SurveyPrompt",
-          "Common.TypeNameIdentifier": "SurveyPrompt",
-          "Common.TypeNamespace": "Prioridades.Shared",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
         }
       },
       {
@@ -19000,11 +18926,6 @@
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\vladi\\Documents\\Tareas\\APLICADA I\\Prioridades\\Pages\\Counter.razor",
-      "TargetPath": "Pages\\Counter.razor",
-      "FileKind": "component"
-    },
-    {
       "FilePath": "c:\\Users\\vladi\\Documents\\Tareas\\APLICADA I\\Prioridades\\Shared\\MainLayout.razor",
       "TargetPath": "Shared\\MainLayout.razor",
       "FileKind": "component"
@@ -19033,11 +18954,6 @@
       "FilePath": "c:\\Users\\vladi\\Documents\\Tareas\\APLICADA I\\Prioridades\\Pages\\_Host.cshtml",
       "TargetPath": "Pages\\_Host.cshtml",
       "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\vladi\\Documents\\Tareas\\APLICADA I\\Prioridades\\Pages\\FetchData.razor",
-      "TargetPath": "Pages\\FetchData.razor",
-      "FileKind": "component"
     },
     {
       "FilePath": "c:\\Users\\vladi\\Documents\\Tareas\\APLICADA I\\Prioridades\\_Imports.razor",
