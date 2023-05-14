@@ -50,6 +50,43 @@
         }
       },
       {
+        "HashCode": 1622051973,
+        "Kind": "Components.Component",
+        "Name": "Prioridades.Pages.Registros.R_Prioridades",
+        "AssemblyName": "Prioridades",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "R_Prioridades"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Prioridades.Pages.Registros.R_Prioridades",
+          "Common.TypeNameIdentifier": "R_Prioridades",
+          "Common.TypeNamespace": "Prioridades.Pages.Registros",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1725995599,
+        "Kind": "Components.Component",
+        "Name": "Prioridades.Pages.Registros.R_Prioridades",
+        "AssemblyName": "Prioridades",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Prioridades.Pages.Registros.R_Prioridades"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Prioridades.Pages.Registros.R_Prioridades",
+          "Common.TypeNameIdentifier": "R_Prioridades",
+          "Common.TypeNamespace": "Prioridades.Pages.Registros",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
         "HashCode": 754588025,
         "Kind": "Components.Component",
         "Name": "Prioridades.App",
@@ -18954,6 +18991,11 @@
       "FilePath": "c:\\Users\\vladi\\Documents\\Tareas\\APLICADA I\\Prioridades\\Pages\\_Host.cshtml",
       "TargetPath": "Pages\\_Host.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\vladi\\Documents\\Tareas\\APLICADA I\\Prioridades\\Pages\\Registros\\R_Prioridades.razor",
+      "TargetPath": "Pages\\Registros\\R_Prioridades.razor",
+      "FileKind": "component"
     },
     {
       "FilePath": "c:\\Users\\vladi\\Documents\\Tareas\\APLICADA I\\Prioridades\\_Imports.razor",
