@@ -1,8 +1,14 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using Prioridades.Data;
-
+using Microsoft.EntityFrameworkCore;
+using RegistroPrioridad.DAL;
+ 
 var builder = WebApplication.CreateBuilder(args);
+var ConStr = builder.Configuration.GetConnectionString("ConStr");
+
+builder.Services.AddDbContext<Contexto>(options => options.UseSqlite(ConStr)
+);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
