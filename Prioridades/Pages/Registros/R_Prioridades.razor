@@ -1,4 +1,5 @@
 @page "/Prioridades"
+@page "/Prioridades/{PrioridadId:int}"
 @inject PrioridadesBLL prioridadBll
 
 <EditForm Model="prioridad" OnValidSubmit="Guardar" >
@@ -37,7 +38,7 @@
 </EditForm>
 @code{
     [Parameter]
-    public int prioridadId { get; set; }
+    public int PrioridadId { get; set; }
     public Registros_Prioridad prioridad { get; set; } = new Registros_Prioridad();
 
     void Nuevo(){
