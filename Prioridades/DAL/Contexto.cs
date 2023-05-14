@@ -1,5 +1,4 @@
-using Microsoft.EntityFrameworkCore;    
-public class Contexto: DbContext{
+ public class Contexto: DbContext{
 
     #nullable disable
     public DbSet<Registros_Prioridad> Registros_Prioridad { get; set;}
