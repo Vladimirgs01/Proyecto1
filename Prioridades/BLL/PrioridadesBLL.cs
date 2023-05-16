@@ -8,11 +8,11 @@ class PrioridadesBLL
     }
 
     public bool Existe (int prioridadId){
-        return _contexto.Registros_Prioridad.Any(p => p.PrioridadId == prioridadId);
+        return _contexto.Priorities.Any(p => p.PrioridadId == prioridadId);
     }
 
     public bool Insertar (Registros_Prioridad prioridad){
-        _contexto.Registros_Prioridad.Add(prioridad);
+        _contexto.Priorities.Add(prioridad);
         return _contexto.SaveChanges()>0;
     }
 
@@ -34,10 +34,10 @@ class PrioridadesBLL
     }
 
     public Registros_Prioridad? Buscar (int prioridadId){
-        return _contexto.Registros_Prioridad.Where(p => p.PrioridadId == prioridadId).AsNoTracking().SingleOrDefault();
+        return _contexto.Priorities.Where(p => p.PrioridadId == prioridadId).AsNoTracking().SingleOrDefault();
     }
 
     public List<Registros_Prioridad>GetList(Expression<Func<Registros_Prioridad, bool>>criterio){
-        return _contexto.Registros_Prioridad.AsNoTracking().Where(criterio).ToList();
+        return _contexto.Priorities.AsNoTracking().Where(criterio).ToList();
     }
 }
