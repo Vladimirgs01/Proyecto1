@@ -9,5 +9,6 @@ public class Registros_Prioridad{
     public string Descripcion { get; set; } = string.Empty;
 
     [Required (ErrorMessage ="Los dia son necesarios")]
-    public DateTime DiasCompromiso { get; set; } = DateTime.Today;
+    [Range(minimum:0, maximum:31,ErrorMessage ="Debe estar de 0 a 31")]
+    public int DiasCompromiso { get; set; }
 }
