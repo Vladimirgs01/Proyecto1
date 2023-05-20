@@ -50,43 +50,6 @@
         }
       },
       {
-        "HashCode": 379420452,
-        "Kind": "Components.Component",
-        "Name": "Registros_Consultas.Pages.FetchData",
-        "AssemblyName": "Registros_Consultas",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Registros_Consultas.Pages.FetchData",
-          "Common.TypeNameIdentifier": "FetchData",
-          "Common.TypeNamespace": "Registros_Consultas.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 1237583246,
-        "Kind": "Components.Component",
-        "Name": "Registros_Consultas.Pages.FetchData",
-        "AssemblyName": "Registros_Consultas",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Registros_Consultas.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Registros_Consultas.Pages.FetchData",
-          "Common.TypeNameIdentifier": "FetchData",
-          "Common.TypeNamespace": "Registros_Consultas.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
         "HashCode": -1253767588,
         "Kind": "Components.Component",
         "Name": "Registros_Consultas.Pages.Index",
@@ -321,6 +284,43 @@
           "Common.TypeName": "Registros_Consultas.Shared.NavMenu",
           "Common.TypeNameIdentifier": "NavMenu",
           "Common.TypeNamespace": "Registros_Consultas.Shared",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -747239055,
+        "Kind": "Components.Component",
+        "Name": "Registros_Consultas.App",
+        "AssemblyName": "Registros_Consultas",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Registros_Consultas.App",
+          "Common.TypeNameIdentifier": "App",
+          "Common.TypeNamespace": "Registros_Consultas",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1380838397,
+        "Kind": "Components.Component",
+        "Name": "Registros_Consultas.App",
+        "AssemblyName": "Registros_Consultas",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Registros_Consultas.App"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Registros_Consultas.App",
+          "Common.TypeNameIdentifier": "App",
+          "Common.TypeNamespace": "Registros_Consultas",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }
@@ -18961,11 +18961,6 @@
       "FilePath": "c:\\Users\\vladi\\Documents\\Tareas\\APLICADA I\\Registros_Consultas\\Pages\\Error.cshtml",
       "TargetPath": "Pages\\Error.cshtml",
       "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\vladi\\Documents\\Tareas\\APLICADA I\\Registros_Consultas\\Pages\\FetchData.razor",
-      "TargetPath": "Pages\\FetchData.razor",
-      "FileKind": "component"
     },
     {
       "FilePath": "c:\\Users\\vladi\\Documents\\Tareas\\APLICADA I\\Registros_Consultas\\_Imports.razor",
